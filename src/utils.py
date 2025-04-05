@@ -28,8 +28,8 @@ def expenses_to_xlsx_file(expenses: Sequence[Expense]) -> BytesIO:
     ws.append((
         "",
         "Загалом",
-        f"=SUM(C1:C{len(expenses)})",
-        f"=SUM(D1:D{len(expenses)})"
+        f"=SUM(C2:C{len(expenses)})",
+        f"=SUM(D2:D{len(expenses)})"
     ))
 
     for cell in ws[1] + ws[ws.max_row]:
