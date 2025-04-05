@@ -31,6 +31,12 @@ API_URL=http://127.0.0.1:25565
 ```
 
 ### 4. Запуск бота
+Windows:
 ```shell
 py -m src.main
+```
+
+Linux:
+```shell
+python3.13 -m src.main
 ```
